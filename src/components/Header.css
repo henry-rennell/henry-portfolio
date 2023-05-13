@@ -1,0 +1,29 @@
+header {
+    padding: 3%;
+    text-align: center;
+    font-size: 1vw;
+    border: 1px solid grey;
+
+}
+
+header * {
+    text-decoration: none;
+    color:rgb(242, 82, 70);
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.darkmode {
+    cursor: pointer;
+}
+
+@media all and (max-width: 600px) {
+    header {
+        font-size: 1.5vw;
+        margin-bottom: 10%;
+    }
+}

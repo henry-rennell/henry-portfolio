@@ -1,0 +1,25 @@
+.about {
+    font-size: 2vw;
+    width: 60%;
+    margin: auto;
+
+}
+.about p {
+    padding: 2%;
+}
+
+.about .bold {
+    font-weight: bolder;
+
+}
+
+@media all and (max-width: 600px) {
+    .about {
+        font-size: 3.6vw;
+        width: 85%;
+    }
+
+    .about p {
+        padding: 5%;
+    }
+}

@@ -1,0 +1,36 @@
+
+
+.title-page {
+    display: flex;
+    justify-content: space-around;
+    padding: 10%;
+}
+
+
+.title-page h1 {
+    font-size: 5vw;
+}
+
+
+.title-page img {
+    height: 300px;
+    border-radius: 75%;
+    border: 15px solid white;
+    overflow-y: none;
+}
+
+@media all and (max-width: 600px) {
+    .title-page {
+        display:block;
+    }
+
+    .title-page h1 {
+        font-size: 10vw;
+    }
+    .title-page h2 {
+        font-size: 6vw;
+        margin-bottom: 10%;
+    }
+
+
+}
