@@ -1,5 +1,5 @@
 .about {
-    font-size: 1.8vw;
+    font-size: 1.4vw;
     width: 60%;
     margin: auto;
 
@@ -12,6 +12,11 @@
     font-weight: bolder;
 
 }
+
+/* body.light {
+    background-color: rgb(232, 237, 97);
+} */
+
 
 @media all and (max-width: 600px) {
     .about {

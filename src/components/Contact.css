@@ -9,9 +9,6 @@
     margin-top: 20%;
 }
 
-.contact {
-    height: 100vh;
-}
 
 @media all and (max-width: 600px) {
     .icons {
