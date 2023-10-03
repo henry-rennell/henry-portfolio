@@ -20,6 +20,16 @@ export default function Projects() {
             >
                 <SwiperSlide>
                     <div className="project">
+                        <img src="/images/sceneo.jpg" alt="" />
+                        <h3>Sceneo</h3>
+                        <p>A fully functional web app, devoted to helping small musicians promote upcoming gigs to music lovers who's interests match that of the gig. Find The Repository here for more details!</p>
+                        <span className="link">
+                            <a href="https://github.com/henry-rennell/sceneo-front-end">GitHub Link</a>
+                        </span>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="project">
                         <img src="/images/byo-backing-track.png" alt="" />
                         <h3>BYO-Backing-Track</h3>
                         <p>A React based Midi Platform that allows Musicians to create audio Loops to practise/compose over.</p>
